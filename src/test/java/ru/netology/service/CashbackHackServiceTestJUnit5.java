@@ -10,7 +10,7 @@ public class CashbackHackServiceTestJUnit5 {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int expected = 600;
         int actual = cashbackHackService.remain(1400);
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -18,6 +18,6 @@ public class CashbackHackServiceTestJUnit5 {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int expected = 0;
         int actual = cashbackHackService.remain(1000);
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 }
