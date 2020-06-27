@@ -13,7 +13,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldMaxSpent() {
+    public void shouldMaxSpend() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int expected = 0;
         int actual = cashbackHackService.remain(1000);
